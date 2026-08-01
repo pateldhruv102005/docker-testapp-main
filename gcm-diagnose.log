@@ -1,0 +1,195 @@
+﻿Diagnose log at 2026-08-01T06:37:51Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.9.0+194ba290ce533465310d50f811684ab180536ae7
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+SystemDrive=C:
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\dhruv\bin;c:\Users\dhruv\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\dhruv\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\HP\OMEN-Broadcast\Common;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\HP\OMEN-Broadcast\Common;C:\Program Files\nodejs\;C:\Users\dhruv\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\dhruv\AppData\Local\Programs\Python\Python311\;C:\Users\dhruv\AppData\Local\Programs\Python\Launcher\;C:\Users\dhruv\AppData\Local\Microsoft\WindowsApps;C:\Users\dhruv\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dhruv\AppData\Local\GitHubDesktop\bin;C:\Users\dhruv\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2026.1.2\bin;C:\Users\dhruv\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\dhruv\AppData\Local\Programs\DockerDesktop\resources\bin;C:\Program Files\Go\bin;C:\Program Files\Go\bin;C:\Users\dhruv\go\bin
+ProgramW6432=C:\Program Files
+PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD
+OnlineServices=Online Services
+PROCESSOR_ARCHITECTURE=AMD64
+DriverData=C:\Windows\System32\Drivers\DriverData
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+HOMEPATH=\Users\dhruv
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\dhruv\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass-main.js
+LANG=en_US.UTF-8
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-b6b9a21005-sock
+MSYSTEM=MINGW64
+TEMP=C:\Users\dhruv\AppData\Local\Temp
+USERPROFILE=C:\Users\dhruv
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+LOGONSERVER=\\LAPTOP-0CU37NCE
+TERM=xterm-256color
+USERNAME=dhruv
+SystemRoot=C:\windows
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_37156_CUIARXKRXYRMAARH
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+PLINK_PROTOCOL=ssh
+OneDrive=C:\Users\dhruv\OneDrive
+USERDOMAIN_ROAMINGPROFILE=LAPTOP-0CU37NCE
+CommonProgramFiles=C:\Program Files\Common Files
+VSCODE_INJECTION=1
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+ProgramData=C:\ProgramData
+platformcode=M7
+GIT_ASKPASS=c:\Users\dhruv\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass.sh
+IntelliJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2026.1.2\bin
+OneDriveConsumer=C:\Users\dhruv\OneDrive
+COMPUTERNAME=LAPTOP-0CU37NCE
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+COPILOT_DEBUG_NONCE=fc9e4fcdd5ed1c1d126fdd35fc7e1616
+TMP=C:\Users\dhruv\AppData\Local\Temp
+SESSIONNAME=Console
+TERM_PROGRAM=vscode
+PROCESSOR_REVISION=7502
+HOMEDRIVE=C:
+windir=C:\windows
+GIT_TRACE2_PARENT_SID=0a709595-1421-4a4c-999d-7de8598e57c6
+VSCODE_GIT_ASKPASS_NODE=C:\Users\dhruv\AppData\Local\Programs\Microsoft VS Code\Code.exe
+NUMBER_OF_PROCESSORS=12
+OS=Windows_NT
+ProgramFiles=C:\Program Files
+ComSpec=C:\windows\system32\cmd.exe
+AMDRMSDKPATH=C:\Program Files\AMD\RyzenMasterSDK\
+HOME=C:\Users\dhruv
+EFC_12276_1592913036=1
+PSModulePath=C:\Users\dhruv\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+TMPDIR=C:\Users\dhruv\AppData\Local\Temp
+APPDATA=C:\Users\dhruv\AppData\Roaming
+USERDOMAIN=LAPTOP-0CU37NCE
+PROCESSOR_LEVEL=25
+LOCALAPPDATA=C:\Users\dhruv\AppData\Local
+CLAUDE_CODE_SSE_PORT=42988
+TERM_PROGRAM_VERSION=1.130.0
+RegionCode=APJ
+COLORTERM=truecolor
+PUBLIC=C:\Users\Public
+GOPATH=C:\Users\dhruv\go
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\dhruv\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\dhruv\AppData\Local\Temp\0d0d46b9935d5e9d8451b935'... OK
+Reading from temporary file 'C:\Users\dhruv\AppData\Local\Temp\0d0d46b9935d5e9d8451b935'... OK
+Deleting temporary file 'C:\Users\dhruv\AppData\Local\Temp\0d0d46b9935d5e9d8451b935'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\dhruv
+UserDataDirectoryPath: C:\Users\dhruv\.gcm
+GetCurrentDirectory(): C:\clg training\docker-testapp-main
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:64851/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.55.0.windows.3'
+Locating current repository...Git repository at 'C:/clg training/docker-testapp-main/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=main
+file:C:/Users/dhruv/.gitconfig	filter.lfs.required=true
+file:C:/Users/dhruv/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/dhruv/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/dhruv/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/dhruv/.gitconfig	user.name=Dhruv Patel
+file:C:/Users/dhruv/.gitconfig	user.email=YOUR_GITHUB_EMAIL@gmail.com
+file:C:/Users/dhruv/.gitconfig	core.editor="C:\Users\dhruv\AppData\Local\Programs\Microsoft VS Code\bin\code" --wait
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/pateldhruv102005/docker-testapp-main.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\dhruv\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\dhruv\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+

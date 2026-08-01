@@ -1,13 +1,21 @@
-FROM node:20
+name: Docker CI
 
-WORKDIR /app
+on:
+  push:
+    branches:
+      - main
 
-COPY package*.json ./
+jobs:
+  docker:
+    runs-on: ubuntu-latest
 
-RUN npm install
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
 
-COPY . .
+      - name: Setup Docker Buildx
+        uses: docker/setup-buildx-action@v3
 
-EXPOSE 5050
-
-CMD ["node", "server.js"]
+      - name: Build Docker Image
+        run: docker build -t testapp .
+        
