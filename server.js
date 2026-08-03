@@ -15,7 +15,7 @@ const MONGO_URL =
 app.get("/version", (req, res) => {
   res.json({
     version: "v2.0",
-    message: "welcome to Winvibe 🚀",
+    message: "CI/CD Test Successful 🚀",
     deployedAt: new Date().toISOString()
   });
 });
