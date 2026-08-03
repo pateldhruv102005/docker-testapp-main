@@ -3,30 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css" type="text/css" />
-    <title>Home Page</title>
+    <title>Docker Test App</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hi student, Welcome to XYZ University!</h1>
-    <p>You can sign up to the platform to access all important notes & lectures.</p>
 
-    <form action="/addUser" method="POST" target="_blank" id="signupForm">
-        <div class="field">
-            <label for="email">Email: </label>
-            <input type="text" placeholder="jane@email.com" name="email">
+    <h1>Welcome to XYZ University</h1>
+
+    <p>Create your account below.</p>
+
+    <form action="/addUser" method="POST">
+
+        <div>
+            <label>Email</label><br>
+            <input
+                type="email"
+                name="email"
+                placeholder="jane@email.com"
+                required>
         </div>
-        <div class="field">    
-        <label for="username">Username: </label>
-            <input type="text" placeholder="Jane Doe" name="username">
+
+        <br>
+
+        <div>
+            <label>Username</label><br>
+            <input
+                type="text"
+                name="username"
+                placeholder="Jane Doe"
+                required>
         </div>
-        <div class="field">
-            <label for="password">Password: </label>
-            <input type="password" placeholder="password" name="password">
+
+        <br>
+
+        <div>
+            <label>Password</label><br>
+            <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                required>
         </div>
-        
-        <button id="formBtn">Create Account</button>
-        
+
+        <br>
+
+        <button type="submit">
+            Create Account
+        </button>
+
     </form>
-</body>
 
+    <hr>
+
+    <h3>Other Operations</h3>
+
+    <a href="/getUsers">📋 Get All Users</a>
+
+    <br><br>
+
+    <a href="/updateUser">✏ Update User</a>
+
+    <br><br>
+
+    <a href="/deleteAllUsers">🗑 Delete All Users</a>
+
+</body>
 </html>
