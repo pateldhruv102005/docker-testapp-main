@@ -11,6 +11,14 @@ app.use(express.static("public"));
 const MONGO_URL =
   process.env.MONGO_URL ||
   "mongodb://admin:qwerty@mongo:27017/apnacollege-db?authSource=admin";
+  // CI/CD TEST ROUTE
+app.get("/version", (req, res) => {
+  res.json({
+    version: "v2.0",
+    message: "CI/CD Test Successful 🚀",
+    deployedAt: new Date().toISOString()
+  });
+});
 
 // HOME PAGE
 app.get("/", (req, res) => {
