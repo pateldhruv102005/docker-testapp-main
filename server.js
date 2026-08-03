@@ -15,7 +15,7 @@ const MONGO_URL =
 // HOME PAGE
 app.get("/", (req, res) => {
   res.send(`
-        <h1>Docker Test App 🚀</h1>
+        <h1>Docker Test App - CI/CD Working ✅</h1>
 
         <h3>Available Routes</h3>
 
