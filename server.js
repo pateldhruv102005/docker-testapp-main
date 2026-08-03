@@ -8,7 +8,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-const MONGO_URL = "mongodb://admin:qwerty@mongo:27017/?authSource=admin";
+const MONGO_URL =
+  process.env.MONGO_URL ||
+  "mongodb://admin:qwerty@mongo:27017/apnacollege-db?authSource=admin";
 // HOME PAGE
 app.get("/", (req, res) => {
     res.send(`
