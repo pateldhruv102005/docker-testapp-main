@@ -8,8 +8,33 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-const MONGO_URL = "mongodb://admin:qwerty@localhost:27017";
+const MONGO_URL = "mongodb://admin:qwerty@mongo:27017/?authSource=admin";
+// HOME PAGE
+app.get("/", (req, res) => {
+    res.send(`
+        <h1>Docker Test App</h1>
 
+        <h3>Available Routes</h3>
+
+        <a href="/getUsers">Get Users</a><br><br>
+
+        <form action="/addUser" method="POST">
+            <input type="text" name="username" placeholder="Username" required><br><br>
+
+            <input type="email" name="email" placeholder="Email" required><br><br>
+
+            <input type="password" name="password" placeholder="Password" required><br><br>
+
+            <button type="submit">Add User</button>
+        </form>
+
+        <br>
+
+        <a href="/updateUser">Update User</a><br><br>
+
+        <a href="/deleteAllUsers">Delete All Users</a>
+    `);
+});
 // GET USERS
 app.get("/getUsers", async (req, res) => {
     const client = new MongoClient(MONGO_URL);
